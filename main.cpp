@@ -2,7 +2,6 @@
 #include "src/Data.h"
 #include "src/DataLoader.h"
 #include "src/Net.h"
-#include <random>
 #include <algorithm>
 
 
@@ -78,7 +77,7 @@ int main() {
         if (predicted == actual)
             correct++;
 
-        std::cout << "Sample " << i
+        std::cout << "Sample " << i + 1
                   << " | Actual: " << actual
                   << " | Predicted: " << predicted << "\n";
     }
