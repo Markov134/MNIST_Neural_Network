@@ -23,7 +23,7 @@ void Data::append_to_feature_vector(uint8_t val) {
 void Data::set_label(uint8_t val) {
     label = val;
 }
-void Data::set_enum_label(int val) {
+void Data::set_enum_label(uint8_t val) {
     enum_label = val;
 }
 

@@ -19,7 +19,7 @@ public:
     void set_feature_vector(std::vector<uint8_t> * vect);
     void append_to_feature_vector(uint8_t val);
     void set_label(uint8_t val);
-    void set_enum_label(int val);
+    void set_enum_label(uint8_t val);
 
     int get_feature_vector_size();
     uint8_t get_label();
