@@ -35,7 +35,7 @@ uint8_t Data::get_label() {
     return label;
 }
 
-int Data::get_enum_label() {
+uint8_t Data::get_enum_label() {
     return enum_label;
 }
 

@@ -23,7 +23,7 @@ public:
 
     int get_feature_vector_size();
     uint8_t get_label();
-    int get_enum_label();
+    uint8_t get_enum_label();
 
     std::vector<uint8_t> * get_feature_vector();
     std::vector<double> toInputVector() const;
